@@ -1,24 +1,24 @@
-// Leia os arquivos principais do projeto para inferir a finalidade e as tecnologias usadas
-const mainFiles = ['index.html', 'style.css', 'app.js'];
-const projectDetails = { description: '', technologies: [], usage: '' };
+# x-men-szpc
 
-mainFiles.forEach(file => {
-const filePath = path.join(__dirname, file);
-if (fs.existsSync(filePath)) {
-const content = fs.readFileSync(filePath, 'utf8');
-if (file === 'index.html') {
-// Extrai título e meta description se disponível
-const titleMatch = content.match(/ <title> (.*?)</title>/);
-if (titleMatch) projectDetails.description = titleMatch;
-}
-se (arquivo === 'style.css') {
-projectDetails.technologies.push('CSS');
-}
-se (arquivo === 'app.js') {
-projectDetails.technologies.push('JavaScript');
-}
-}
-});
+## Descrição
+Projeto web simples provavelmente focado em conteúdo relacionado a X-Men, estruturado em HTML, estilizado com CSS e interatividade com JavaScript.
 
-// Estrutura README base
-const readme = `
+## Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript
+
+## Estrutura do Projeto
+- Arquivos HTML para a estrutura das páginas web
+- Arquivos CSS para o estilo e layout
+- Arquivos JavaScript para funcionalidades interativas
+
+## Como Rodar o Projeto
+1. Clone este repositório
+2. Abra o arquivo `index.html` em qualquer navegador web moderno para visualizar o projeto
+
+## Link do GitHub
+[https://github.com/vinicius-goess/x-men-szpc](https://github.com/vinicius-goess/x-men-szpc)
+
+## Licença
+Este projeto não possui uma licença especificada no momento.
