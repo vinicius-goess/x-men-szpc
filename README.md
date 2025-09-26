@@ -18,7 +18,7 @@ Projeto web simples provavelmente focado em conteúdo relacionado a X-Men, estru
 2. Abra o arquivo `index.html` em qualquer navegador web moderno para visualizar o projeto
 
 ## Link do GitHub
-[https://github.com/vinicius-goess/x-men-szpc](https://github.com/vinicius-goess/x-men-szpc)
+[Clique aqui e faça o teste!]([https://github.com/vinicius-goess/x-men-szpc](https://vinicius-goess.github.io/x-men-szpc/))
 
 ## Licença
 Este projeto não possui uma licença especificada no momento.
